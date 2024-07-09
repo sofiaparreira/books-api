@@ -1,0 +1,291 @@
+[
+    {
+        "categoria": "Romance",
+        "nome": "Verity" ,
+        "autor": "Colleen Hoover",
+        "editora": "Galera",
+        "ano": "2018",
+        "capa": "https://m.media-amazon.com/images/I/91SDZ2eUj+L._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Romance",
+        "nome": "Os Sete Maridos de Evelyn Hugo" ,
+        "autor": "Taylor Jenkins Reid",
+        "editora": "Paralela",
+        "ano": "2017",
+        "capa": "https://m.media-amazon.com/images/I/91yEPgRcELL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+
+    {
+        "categoria": "Romance",
+        "nome": "Daisy Jones and The Six",
+        "autor": "Taylor Jenkins",
+        "editora": "Paralela",
+        "ano": "2019",
+        "capa": "https://m.media-amazon.com/images/I/91KL76cFphL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "categoria": "Romance",
+        "nome": "O amor não é óbvio",
+        "autor": "Elayne Baeta",
+        "editora": "Galera",
+        "ano": "2019",
+        "capa": "https://books.google.com.br/books/publisher/content?id=Jy6-DwAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U1HEz8-MlOp9PxUHNqJ0MEtdAR51g&w=1280",
+        "sinopse": "A história conta sobre uma menina que está descobrindo sua sexualidade durante a adolescencia e acaba se apaixonando por uma garota da escola",
+        "estrelas": "★★★★"
+    },
+    {
+        "categoria": "Romance",
+        "nome": "Sadie",
+        "autor": "Courtney Summers",
+        "editora": "Principis",
+        "ano": "2018",
+        "capa": "https://m.media-amazon.com/images/I/810mDUFGZFL._AC_UF894,1000_QL80_.jpg"
+    },
+
+    {
+        "categoria": "Romance",
+        "nome": "Orgulho e Preconceito" ,
+        "autor": "Jane Austen",
+        "editora": "Martin Claret",
+        "ano": "1813",
+        "capa": "https://m.media-amazon.com/images/I/719esIW3D7L._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Romance",
+        "nome": "Quem é você Alaska",
+        "autor": "John Green",
+        "editora": "Intrínseca",
+        "ano": "2012",
+        "capa": "https://m.media-amazon.com/images/I/715+3WHXWyL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "categoria": "Fantasia",
+        "nome": "Sombra e Ossos" ,
+        "autor": "Leigh Bardugo",
+        "editora": "Planeta Minotauro",
+        "ano": "2021",
+        "capa": "https://m.media-amazon.com/images/I/81WKPIFKThL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Fantasia",
+        "nome": "O Hobbit",
+        "autor": "J. R. R. Tolkien",
+        "editora": "HarperCollins",
+        "ano": "1937",
+        "capa": "ignora por enquanto"
+
+    },
+    {
+        "categoria": "Fantasia",
+        "nome": "A Rainha Vermelha",
+        "autor": "Victoria Aveyard",
+        "editora": "Seguinte",
+        "ano": "2015",
+        "capa": "https://m.media-amazon.com/images/I/41pZtBIcGhL.jpg"
+
+    },
+    {
+        "categoria": "Fantasia",
+        "nome": "Jogos Vorazes",
+        "autor": "Suzanne Collins",
+        "editora": "Rocco",
+        "ano": "2008",
+        "capa": "https://rocco.com.br/app/uploads/2022/12/9786555321449.jpg"
+
+    },
+    {
+        "categoria": "Fantasia",
+        "nome": "As Crônicas de Nárnia",
+        "autor": "C. S. Lewis",
+        "editora": "WMF Martins Fontes",
+        "ano": "1950",
+        "capa": "ignora por enquanto"
+
+    },
+    {
+        "categoria": "Fantasia",
+        "nome": "Quarta Asa",
+        "autor": "Rebecca Yarros",
+        "editora": "Planeta Minotauro",
+        "ano": "2023",
+        "capa": "https://imagens.disal.com.br/produtos/ampliada/9913440.jpg"
+
+    },
+    {
+        "categoria": "Terror",
+        "nome": "It - A Coisa",
+        "autor": "Stephen King",
+        "editora": "Suma",
+        "ano": "2014",
+        "capa": "https://m.media-amazon.com/images/I/91g9Dvtf+jL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Terror",
+        "nome": "Frankenstein",
+        "autor": "Mary Shelley",
+        "editora": "Darkside",
+        "ano": "1818",
+        "capa": "https://m.media-amazon.com/images/I/91Kz+sC5X0L._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Terror",
+        "nome": "O Colecionador",
+        "autor": "John Fowles",
+        "editora": "Darkside",
+        "ano": "1963",
+        "capa": "https://livrariascuritiba.vteximg.com.br/arquivos/ids/2147572-1000-1000/lv428561_1.jpg?v=638272740067370000"
+
+    },
+    {
+        "categoria": "Terror",
+        "nome": "O Vilarejo",
+        "autor": "Raphael Mones",
+        "editora": "Suma",
+        "ano": "2015",
+        "capa": "https://m.media-amazon.com/images/I/81JaIN9NExL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Terror",
+        "nome": "O Bebê de Rosemary",
+        "autor": "Ira Levin",
+        "editora": "Darkside",
+        "ano": "1967",
+        "capa": "https://m.media-amazon.com/images/I/61cJnBopcWL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Terror",
+        "nome": "O Exorcista",
+        "autor": "William Peter Blatty",
+        "editora": "HarperCollins",
+        "ano": "1971",
+        "capa": "https://m.media-amazon.com/images/I/91fQ51I4TRL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Ficção Científica",
+        "nome": "1984",
+        "autor": "George Orwell",
+        "editora": "Principis",
+        "ano": "1949",
+        "capa": "https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Ficção Científica",
+        "nome": "Duna",
+        "autor": "Frank Herbert",
+        "editora": "Aleph",
+        "ano": "1965",
+        "capa": "https://m.media-amazon.com/images/I/81zN7udGRUL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Ficção Científica",
+        "nome": "O Conto da Aia",
+        "autor": "Margaret Atwood",
+        "editora": "Rocco",
+        "ano": "1985",
+        "capa": "https://doispontos.vteximg.com.br/arquivos/ids/169383-1000-1500/9786555320947_1.jpg?v=637587856048530000"
+
+    },
+    {
+        "categoria": "Ficção Científica",
+        "nome": "Flores para Algernon",
+        "autor": "Daniel Keyes",
+        "editora": "Aleph",
+        "ano": "1959",
+        "capa": "https://m.media-amazon.com/images/I/71VrMtcmE9L._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Ficção Científica",
+        "nome": "Matéria escura",
+        "autor": "Blake Crouch",
+        "editora": "Intrínseca",
+        "ano": "2016",
+        "capa": "https://m.media-amazon.com/images/I/61jH-BJ01iL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Ficção Científica",
+        "nome": "Fahrenheit 451",
+        "autor": "Ray Bradbury",
+        "editora": "Biblioteca Azul",
+        "ano": "1953",
+        "capa": "https://m.media-amazon.com/images/I/51tAD6LyZ-L._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "A empregada",
+        "autor": "Freida McFadden",
+        "editora": "Arqueiro",
+        "ano": "2023",
+        "capa": "https://m.media-amazon.com/images/I/81BdpMhm3iL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "Jantar Secreto",
+        "autor": "Raphael Montes",
+        "editora": "Companhia das Letras",
+        "ano": "2016",
+        "capa": "https://m.media-amazon.com/images/I/71AeB1+8dZL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "Os cinco porquinhos",
+        "autor": "Agatha Christie",
+        "editora": "Globo",
+        "ano": "1942",
+        "capa": "https://m.media-amazon.com/images/I/71maZuSfKdL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "A última festa",
+        "autor": "Lucy Foley",
+        "editora": "Intrínseca",
+        "ano": "2020",
+        "capa": "https://m.media-amazon.com/images/I/71gayVVXUpL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "A Paciente Silenciosa",
+        "autor": "Alex Michaelides",
+        "editora": "Record",
+        "ano": "2019",
+        "capa": "https://m.media-amazon.com/images/I/41J3FApF8yL.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "E Não Sobrou Nenhum",
+        "autor": "Agatha Christie",
+        "editora": "Globo",
+        "ano": "1939",
+        "capa": "https://m.media-amazon.com/images/I/71u9uqTYBcL._AC_UF1000,1000_QL80_.jpg"
+
+    },
+    {
+        "categoria": "Mistério",
+        "nome": "Sadie",
+        "autor": "Courtney Summers",
+        "editora": "Principis",
+        "ano": "2018",
+        "capa": "https://m.media-amazon.com/images/I/810mDUFGZFL._AC_UF894,1000_QL80_.jpg",
+        "sinopse": "A história é contada através de dois pontos de vista alternados: o de Sadie, uma jovem determinada em busca de vingança após o assassinato de sua irmã, e o de um podcastista investigativo que tenta desvendar o que aconteceu com Sadie após o seu desaparecimento. O livro explora temas como trauma, abuso, determinação e os laços profundos entre irmãs, criando uma narrativa intensa que mergulha fundo na psicologia dos personagens.",
+        "estrelas": "★★★"
+    }
+]
