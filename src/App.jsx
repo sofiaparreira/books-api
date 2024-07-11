@@ -1,6 +1,4 @@
-// App.js
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import CardBook from './components/CardBook';
 import BtnCategoria from './components/BtnCategoria';
@@ -10,12 +8,31 @@ import CardTerror from './components/CardTerror';
 import CardFiccao from './components/CardFiccao';
 import CardFantasia from './components/CardFantasia';
 import Filter from './components/Filter';
-
-import './App.css';
 import Search from './components/Search';
+import bookData from '../json/books.json';
+import './App.css';
 
 function App() {
   const [filterParam, setFilterParam] = useState("");
+  const [search, setSearch] = useState("");
+  const [livroEncontrado, setLivroEncontrado] = useState(null);
+  const [livros, setLivros] = useState([]);
+
+  useEffect(() => {
+    setLivros(bookData);
+  }, []);
+
+  const handleSearch = (e) => {
+    const term = e.target.value;
+    setSearch(term);
+
+    if (term !== "") {
+      const livro = livros.find((livro) => livro.nome.toLowerCase().includes(term.toLowerCase()));
+      setLivroEncontrado(livro);
+    } else {
+      setLivroEncontrado(null);
+    }
+  };
 
   return (
     <Router>
@@ -31,7 +48,10 @@ function App() {
           </div>
           <div className='grid grid-cols-4 gap-8 mt-8 mb-16 mx-64'>
             <div className='col-span-3'>
-              <Search />
+              <Search
+                onChange={handleSearch}
+                value={search}
+              />
             </div>
             <div className='col-span-1'>
               <Filter filterParam={filterParam} setFilterParam={setFilterParam} />
@@ -40,12 +60,12 @@ function App() {
         </div>
 
         <Routes>
-          <Route path="/" element={<CardBook filterParam={filterParam} />} />
-          <Route path="/romance" element={<CardRomance filterParam={filterParam} />} />
-          <Route path="/misterio" element={<CardMisterio filterParam={filterParam} />} />
-          <Route path="/terror" element={<CardTerror filterParam={filterParam} />} />
-          <Route path="/ficcao-cientifica" element={<CardFiccao filterParam={filterParam} />} />
-          <Route path="/fantasia" element={<CardFantasia filterParam={filterParam} />} />
+          <Route path="/" element={<CardBook filterParam={filterParam} livroEncontrado={livroEncontrado} livros={livros} />} />
+          <Route path="/romance" element={<CardRomance filterParam={filterParam} livroEncontrado={livroEncontrado} livros={livros} />} />
+          <Route path="/misterio" element={<CardMisterio filterParam={filterParam} livroEncontrado={livroEncontrado} livros={livros} />} />
+          <Route path="/terror" element={<CardTerror filterParam={filterParam} livroEncontrado={livroEncontrado} livros={livros} />} />
+          <Route path="/ficcao-cientifica" element={<CardFiccao filterParam={filterParam} livroEncontrado={livroEncontrado} livros={livros} />} />
+          <Route path="/fantasia" element={<CardFantasia filterParam={filterParam} livroEncontrado={livroEncontrado} livros={livros} />} />
         </Routes>
       </div>
     </Router>
