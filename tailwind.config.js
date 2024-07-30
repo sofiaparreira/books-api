@@ -4,8 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
-    extend: {},
+    extend: {
+      scale: {
+        '102': '1.02',
+      },
+    },
   },
   plugins: [],
 }

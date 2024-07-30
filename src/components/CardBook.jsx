@@ -34,7 +34,7 @@ const CardBook = ({ filterParam }) => {
       <div className="grid grid-cols-3 justify-around mx-auto">
         {filteredBooks.map((book, id) => (
           <div
-            className="bg-gray-800 py-4 px-4 rounded-md flex justify-left mx-8 mb-8 gap-4 cursor-pointer"
+            className="bg-gray-800 hover:bg-gray-950 transition-all duration-300 hover:scale-102 py-4 px-4 rounded-md flex justify-left mx-8 mb-8 gap-4 cursor-pointer"
             key={id}
             onClick={() => handleCardClick(book)}
           >
